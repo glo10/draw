@@ -1,0 +1,83 @@
+body{
+    margin:150px auto;
+    width:100%;
+    background-color: rgba(0,10,0,0.1);
+}
+
+#options{
+    display: flex;
+    justify-content: center;
+    margin:0px 20px;
+}
+
+#options div{
+    margin: 0px 10px;
+}
+#options img{
+    width: 16px;
+}
+
+canvas#dessin{
+    border:1px solid black;
+    margin: 15px auto;
+    display: block;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 4px;
+    cursor:not-allowed;
+}
+
+
+.palette{
+    display: none;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.palette span{
+    border: 2px outset black;
+    padding:5px 13.5px;
+    margin:10px;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div#btn{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.palette span:hover,
+div#btn>*:hover{
+    border:2px inset black;
+}
+
+#text,#eraser,#pencil{
+    padding: 0px 5px;
+    margin: 0px 2px;
+}
+
+#text:hover,#eraser:hover,#pencil:hover, #bucket:hover{
+    cursor:pointer;
+    background-color: lightgrey;
+}
+
+#msg{
+    text-align: center;
+    margin: 20px auto;
+}
+
+input[type="button"]{
+    width:120px;
+    margin: 20px auto;
+    display: inline-block;
+    background-color: white;
+    border: 2px outset black;
+    padding:4px;
+}
+
+#copyright{
+    text-align: center;
+}
